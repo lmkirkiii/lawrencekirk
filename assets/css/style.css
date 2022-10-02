@@ -1,0 +1,74 @@
+/* body {background-color: black;} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+p{
+    position: absolute;
+    background-color: yellow;
+}
+li {
+  float: left;
+}
+
+li a {
+font-family: monospace;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: yellow;
+}
+.main{
+    display: flex;
+   height: 500 px;
+   width: 500 px;
+}
+.section1{
+
+    font-family: monospace;
+    background-color: red;
+    flex-direction: row;
+    margin: 100px;
+    padding: 20px;
+    font-size: 30px;
+}
+.section2{
+    font-family: monospace;
+    background-color: yellow
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.section3{
+    font-family: monospace;
+    background-color: blue
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.profile{
+    height: 400px;
+    width: 400px;
+}
+
+body {
+    background-image: url('../img/water.jpg');
+  }
+
+
