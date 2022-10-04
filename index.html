@@ -10,20 +10,28 @@
 <body>
 
 <header>
-    <nav> 
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">Curiculum Vitae</a></li>
-            <li><a href="#contact">Recent Works</a></li>
-            <li><a href="#contact">Archive</a></li>
-          </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="cv.html">Ciriculum Vitae</a>
+        <div class="dropdown">
+          <button class="dropbtn">Works 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="recent.html">Installation</a>
+            <a href="#">Digital Work</a>
+            <a href="#">Painting</a>
+            <a href="#">Sketch</a>
+          </div>
+        </div> 
+        <a href="#about">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 </header>
 <img class="profile" src="assets/img/profile.png" alt="profile-image">
 
 <main class="main">
     <section class="section1">
-
     <h2>About</h2>
     </section>
     <section class="section2">
